@@ -352,9 +352,8 @@ async function tsgenInterface(option) {
 async function start() {
   tsgenLog("\u9879\u76EE\u6839\u8DEF\u5F84\uFF1A", moduleRoot());
   tsgen({
-    filepath: "http://ws.api.test.sxw.cn/lottery-system/v2/api-docs",
-    output: "/Users/xiaohei/code/sxjy_job/vue3-roll-bm/src/service/",
-    serviceName: "serviceLotterySystem"
+    filepath: "http://api.test.sxw.cn/passport/v2/api-docs",
+    serviceName: "passport"
   });
 }
 start();
